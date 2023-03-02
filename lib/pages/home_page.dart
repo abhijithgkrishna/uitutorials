@@ -202,8 +202,14 @@ class _HomePageState extends State<HomePage> {
             ),
             Expanded(
               child: Container(
+                decoration: BoxDecoration(
+                  color: Color.fromARGB(255, 245, 245, 245),
+                  borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(25),
+                    topRight: Radius.circular(25),
+                  ),
+                ),
                 padding: EdgeInsets.all(25),
-                color: Colors.grey[200],
                 child: Center(
                   child: Column(
                     children: [
